@@ -36,48 +36,45 @@ To get the application up and running, you'll need to set up both the backend an
 
 2. **Clone the Repository:**
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name/backend
-
-
 3. **Install Dependencies:**
 
+```bash
 pip install -r requirements.txt
-
+```
 
 4. **Run Migrations:**
-
+```bash
 python manage.py migrate
-
+```
 
 5. **Start the Development Server:**
-
+```bash
 python manage.py runserver
-
+```
 
 ### 2. Frontend Setup (React)
 
 1. **Prerequisites:** Ensure you have Node.js and `npm` installed.
 
 2. **Navigate to the Frontend Directory:**
-
+```bash
 cd ../frontend
-
+```
 
 3. **Install Dependencies:**
-
+```bash
 npm install
-
+```
 
 4. **Start the Development Server:**
-
+```bash
 npm start
-
+```
 
 The frontend will run on `http://localhost:3000` and the backend API will be available at `http://localhost:8000`.
 
 ## Project Structure
-
+```bash
 ├── backend/                  # Django backend
 │   ├── planner/              # Django project folder
 │   ├── tasks/                # Django app for tasks
@@ -87,3 +84,4 @@ The frontend will run on `http://localhost:3000` and the backend API will be ava
 │   ├── src/                  # React source code
 │   └── package.json          # Node.js dependencies
 └── README.md
+```

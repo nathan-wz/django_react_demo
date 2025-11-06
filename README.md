@@ -2,6 +2,8 @@
 
 A minimalist, full-stack planner application designed to help users organize, manage, and track their daily tasks and events. The application provides a simple and intuitive interface for creating new tasks, marking them as complete, and keeping a clear overview of upcoming activities.
 
+<img width="1804" height="727" alt="image" src="https://github.com/user-attachments/assets/44ec73d2-698e-42dd-9de1-1cbf5a23862a" />
+
 ## Technologies Used
 
 This project is built using a combination of powerful and modern technologies for both the frontend and backend.
